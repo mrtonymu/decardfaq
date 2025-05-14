@@ -1,1 +1,0 @@
-export const Button = ({ children, onClick, variant = 'default', className = '', ...rest }) => <button onClick={onClick} className={`px-3 py-1 rounded ${variant === 'ghost' ? 'bg-transparent' : 'bg-blue-500 text-white'} ${className}`} {...rest}>{children}</button>;
